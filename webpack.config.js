@@ -43,7 +43,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'index.ejs'),
             title: appHtmlTitle,
-            GMAP_API_KEY: JSON.stringify(process.env.GMAP_API_KEY)
+            GMAP_API_KEY: JSON.stringify(process.env.GMAP_API_KEY),
+            favicon: 'favicon.ico'
         })
     ],
     module: {
