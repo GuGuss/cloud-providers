@@ -1,0 +1,38 @@
+// Apply a natural box layout model to all elements
+// but allowing components to change
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// Cloud providers marker color.
+#alibaba-cloud-link i {
+  color: #E53935;    
+} 
+
+#aws-link i {
+  color: #FF6F00;
+} 
+
+#google-cloud-link i {
+  color: #2E7D32;    
+} 
+
+#ibm-cloud-link i {
+  color: #FFEE58;    
+} 
+
+#microsoft-azure-link i {
+  color: #1976D2;    
+} 
+
+#oracle-cloud-link i {
+  color: #F48FB1;    
+} 
+
+#tencent-cloud-link i {
+  color: #9C27B0;    
+} 

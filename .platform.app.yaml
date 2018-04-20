@@ -1,0 +1,22 @@
+name: app
+
+type: nodejs:6.11
+
+web:
+  locations:
+    "/":
+      passthru: '/index.html'
+      root: "dist"
+      # Whether to allow files not matching a rule or not.
+      allow: true
+      rules:
+        \.(css|js|gif|jpe?g|png|ttf|eot|woff2?|otf|html|ico|svg?)$:
+          allow: true
+        ^/robots\.txt$:
+          allow: true
+
+disk: 512
+
+hooks:
+    build: |
+      npm run build
