@@ -1,17 +1,17 @@
 # Cloud Provider Locations
 
-**Cloud Provider Locations** is a dynamic map of the major public cloud provider data center locations worldwide.
+Map of the major public cloud provider locations: https://where.jumpintothe.cloud/.
 
-You can access the dynamic map at: https://coverage.id2.cloud.
+![](https://where.jumpintothe.cloud/assets/images/map.png)
 
-![](https://coverage.id2.cloud/assets/images/map.png)
+## Data
+
+The regions data are loaded from the [app/regions.js](https://github.com/GuGuss/cloud-provider-locations/blob/master/app/regions.js) JSON file and imported into the map.
 
 ## Contributing
 
-You can contribute to the project and update the list of cloud provider locations at `/app/regions.js`.
+Feel free to contribute to the project and submit pull request.
 
 ## License
 
 This application is under the MIT License (MIT). Read the LICENSE for more information.
-
-Redeploy #1
