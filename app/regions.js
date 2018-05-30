@@ -4,8 +4,8 @@ export var regions = {
       'id': 'us-east-1',
       'name': 'US East (Northern Virginia)',
       'location': 'Northern Virginia, USA',
-      'lat': 38.13,
-      'lng': -78.45,
+      'lat': 38.896226,
+      'lng': -77.664399,
       'zones': '6'
     },
     {
