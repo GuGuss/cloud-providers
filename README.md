@@ -13,3 +13,5 @@ You can contribute to the project and update the list of cloud provider location
 ## License
 
 This application is under the MIT License (MIT). Read the LICENSE for more information.
+
+Redeploy #1
