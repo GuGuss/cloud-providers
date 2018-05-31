@@ -42,7 +42,7 @@ function setMarkers(map) {
 
       if (region['open'] !== false) {
         // @TODO: Don't display the marker if 'open: false'.
-
+        // @TODO: Group markers together if located at the same place.
         const marker = new google.maps.Marker({
           position: {
             lat: region['lat'],
