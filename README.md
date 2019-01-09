@@ -1,6 +1,6 @@
 # Cloud Provider Locations
 
-Map of the major public cloud provider locations: https://where.jumpintothe.cloud/.
+Map of the major public cloud provider locations: https://cloud-providers.jumpintothe.cloud/.
 
 ![](https://where.jumpintothe.cloud/assets/images/map.png)
 
