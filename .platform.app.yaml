@@ -19,7 +19,8 @@ disk: 512
 
 hooks:
     build: |
-      npm run build
+        curl -sS https://platform.sh/cli/installer | php
+        npm run build
 
 crons:
     renewcert:
