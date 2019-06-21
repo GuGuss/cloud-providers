@@ -1,0 +1,216 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "DigitalOcean",
+    "providerId": "digitalocean",
+    "regions": [
+        {
+            "city": "Amsterdam",
+            "country": "NL",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 52.35,
+            "locationLong": 4.916667,
+            "providerCode": "ams2",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ]
+        },
+        {
+            "city": "Amsterdam",
+            "country": "NL",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 52.35,
+            "locationLong": 4.916667,
+            "providerCode": "ams3",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ]
+        },
+        {
+            "city": "Bangalore",
+            "country": "IN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 12.983333,
+            "locationLong": 77.583333,
+            "providerCode": "blr1",
+            "regions": [
+                "asia",
+                "asia_south"
+            ]
+        },
+        {
+            "city": "Frankfurt",
+            "country": "DE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 50.116667,
+            "locationLong": 8.683333,
+            "providerCode": "fra1",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ]
+        },
+        {
+            "city": "London",
+            "country": "GB",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 51.514125,
+            "locationLong": -0.093689,
+            "planned": false,
+            "providerCode": "lon1",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "New York",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 40.7141667,
+            "locationLong": -74.0063889,
+            "planned": false,
+            "providerCode": "ny1",
+            "regions": [
+                "us",
+                "us_east",
+                "us_northeast",
+                "us_northeast_midatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "NY"
+        },
+        {
+            "city": "New York",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 40.7141667,
+            "locationLong": -74.0063889,
+            "planned": false,
+            "providerCode": "ny2",
+            "regions": [
+                "us",
+                "us_east",
+                "us_northeast",
+                "us_northeast_midatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "NY"
+        },
+        {
+            "city": "New York",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 40.7141667,
+            "locationLong": -74.0063889,
+            "planned": false,
+            "providerCode": "ny3",
+            "regions": [
+                "us",
+                "us_east",
+                "us_northeast",
+                "us_northeast_midatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "NY"
+        },
+        {
+            "city": "San Francisco",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 37.775,
+            "locationLong": -122.4183333,
+            "planned": false,
+            "providerCode": "sfo1",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "CA"
+        },
+        {
+            "city": "San Francisco",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 37.775,
+            "locationLong": -122.4183333,
+            "providerCode": "sfo2",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "state": "CA"
+        },
+        {
+            "city": "Singapore",
+            "country": "SG",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 1.2930556,
+            "locationLong": 103.8558333,
+            "planned": false,
+            "providerCode": "sg1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast"
+            ],
+            "special": false
+        },
+        {
+            "city": "Toronto",
+            "country": "CA",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 43.666667,
+            "locationLong": -79.416667,
+            "providerCode": "tor1",
+            "regions": [
+                "ca",
+                "america",
+                "america_north"
+            ]
+        }
+    ],
+    "serviceId": "digitalocean:compute",
+    "sla": 99.99,
+    "slaDescription": "DigitalOcean provides a 99.99% Uptime SLA for both Droplet and Block Storage. Lost time is refunded back to your account at the hourly rate incurred.",
+    "slaLink": "https://www.digitalocean.com/help/policy/",
+    "type": "compute"
+}

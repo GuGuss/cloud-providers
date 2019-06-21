@@ -1,0 +1,92 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "Oracle Cloud Compute",
+    "providerId": "oracle",
+    "regions": [
+        {
+            "city": "Frankfurt",
+            "country": "DE",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 50.116667,
+            "locationLong": 8.683333,
+            "planned": false,
+            "providerCode": "eu-frankfurt-1",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "London",
+            "country": "GB",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 51.5141,
+            "locationLong": -0.0937,
+            "planned": false,
+            "providerCode": "uk-london-1",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "planned": false,
+            "providerCode": "us-ashburn-1",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "VA"
+        },
+        {
+            "city": "Phoenix",
+            "country": "US",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 33.4483333,
+            "locationLong": -112.0733333,
+            "planned": false,
+            "providerCode": "us-phoenix-1",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_mountain",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "AZ"
+        }
+    ],
+    "serviceId": "oracle:compute",
+    "shortName": "Oracle Compute",
+    "sla": 99.99,
+    "slaDescription": "Commencing at Oracle\u2019s activation of the Oracle PaaS and IaaS Public Cloud Service, Oracle works to meet the Target Service Uptime of 99.99% for the Oracle Cloud Infrastructure Compute service",
+    "slaLink": "http://www.oracle.com/us/corporate/contracts/paas-iaas-pub-cld-srvs-pillar-1117-4021422.pdf",
+    "type": "compute",
+    "website": "https://cloud.oracle.com/en_US/infrastructure/compute"
+}

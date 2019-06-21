@@ -1,0 +1,309 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "Google Compute Engine",
+    "providerId": "google",
+    "regions": [
+        {
+            "city": "Changhua County",
+            "country": "TW",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 23.9333,
+            "locationLong": 120.5333,
+            "planned": false,
+            "providerCode": "asia-east1",
+            "regions": [
+                "asia",
+                "asia_apac"
+            ],
+            "special": false
+        },
+        {
+            "city": "Tokyo",
+            "country": "JP",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 35.6895,
+            "locationLong": 139.6917,
+            "planned": false,
+            "providerCode": "asia-northeast1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "jp"
+            ],
+            "special": false
+        },
+        {
+            "city": "Mumbai",
+            "country": "IN",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 19.076,
+            "locationLong": 72.8777,
+            "planned": false,
+            "providerCode": "asia-south1",
+            "regions": [
+                "asia",
+                "asia_south"
+            ],
+            "special": false
+        },
+        {
+            "city": "Singapore",
+            "country": "SG",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 1.3521,
+            "locationLong": 103.8198,
+            "planned": false,
+            "providerCode": "asia-southeast1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast"
+            ],
+            "special": false
+        },
+        {
+            "city": "Sydney",
+            "country": "AU",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": -33.8628,
+            "locationLong": 151.1912,
+            "planned": false,
+            "providerCode": "australia-southeast1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": false
+        },
+        {
+            "city": "Hamina",
+            "country": "FI",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 60.5715,
+            "locationLong": 27.1877,
+            "planned": false,
+            "providerCode": "europe-north1",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "St. Ghislain",
+            "country": "BE",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 50.4704,
+            "locationLong": 3.8649,
+            "planned": false,
+            "providerCode": "europe-west1",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "London",
+            "country": "GB",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 51.5074,
+            "locationLong": -0.1278,
+            "planned": false,
+            "providerCode": "europe-west2",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Frankfurt",
+            "country": "DE",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 50.1109,
+            "locationLong": 8.6821,
+            "planned": false,
+            "providerCode": "europe-west3",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Eemshaven",
+            "country": "NL",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 53.2622,
+            "locationLong": 6.4936,
+            "planned": false,
+            "providerCode": "europe-west4",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Montreal",
+            "country": "CA",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 45.3627,
+            "locationLong": -73.3458,
+            "planned": false,
+            "providerCode": "northamerica-northeast1",
+            "regions": [
+                "ca",
+                "america",
+                "america_north"
+            ],
+            "special": false
+        },
+        {
+            "city": "S\u00e3o Paulo",
+            "country": "BR",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": -23.5505,
+            "locationLong": -46.6333,
+            "planned": false,
+            "providerCode": "southamerica-east1",
+            "regions": [
+                "america",
+                "america_central_south",
+                "america_south"
+            ],
+            "special": false
+        },
+        {
+            "city": "Council Bluffs",
+            "country": "US",
+            "estimated": true,
+            "facilities": 4,
+            "locationLat": 41.2619,
+            "locationLong": -95.8608,
+            "planned": false,
+            "providerCode": "us-central1",
+            "regions": [
+                "us",
+                "us_midwest",
+                "us_midwest_westnorthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "IA"
+        },
+        {
+            "city": "Moncks Corner",
+            "country": "US",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 33.196,
+            "locationLong": -80.0131,
+            "planned": false,
+            "providerCode": "us-east1",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "SC"
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 39.0438,
+            "locationLong": -77.4874,
+            "planned": false,
+            "providerCode": "us-east4",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "VA"
+        },
+        {
+            "city": "Portland",
+            "country": "US",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 45.5213,
+            "locationLong": -122.6765,
+            "planned": false,
+            "providerCode": "us-west1",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "OR"
+        },
+        {
+            "city": "Los Angeles",
+            "country": "US",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 34.0522,
+            "locationLong": -118.2437,
+            "planned": false,
+            "providerCode": "us-west2",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "CA"
+        }
+    ],
+    "serviceId": "google:compute",
+    "sla": 99.95,
+    "slaDescription": "The Covered Service will provide a Monthly Uptime Percentage to Customer of at least 99.95% (the \"Service Level Objective\" or \"SLO\"). If Google does not meet the SLO, and if Customer meets its obligations under this SLA, Customer will be eligible to receive Financial Credits.",
+    "slaLink": "https://cloud.google.com/compute/sla",
+    "type": "compute",
+    "website": "https://cloud.google.com/compute/"
+}

@@ -1,0 +1,287 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": false,
+    "hasWebProbeSsl": false,
+    "name": "interoute Infrastructure",
+    "providerId": "interoute",
+    "regions": [
+        {
+            "city": "Amsterdam",
+            "country": "NL",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 52.35,
+            "locationLong": 4.916667,
+            "planned": false,
+            "providerCode": "amsterdam",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Berlin",
+            "country": "DE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 52.516667,
+            "locationLong": 13.4,
+            "planned": false,
+            "providerCode": "berlin",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Frankfurt",
+            "country": "DE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 50.116667,
+            "locationLong": 8.683333,
+            "planned": false,
+            "providerCode": "frankfurt",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Geneva",
+            "country": "CH",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 46.195602,
+            "locationLong": 6.148113,
+            "planned": false,
+            "providerCode": "geneva",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Hong Kong",
+            "country": "HK",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 22.2833333,
+            "locationLong": 114.15,
+            "planned": false,
+            "providerCode": "hong-kong",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Istanbul",
+            "country": "TR",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 41.018611,
+            "locationLong": 28.964722,
+            "planned": false,
+            "providerCode": "istanbul",
+            "regions": [
+                "eu",
+                "eu_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "London",
+            "country": "GB",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 51.514125,
+            "locationLong": -0.093689,
+            "planned": false,
+            "providerCode": "london",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Los Angeles",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 34.0522222,
+            "locationLong": -118.2427778,
+            "planned": false,
+            "providerCode": "los-angeles",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "CA"
+        },
+        {
+            "city": "Madrid",
+            "country": "ES",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 40.408566,
+            "locationLong": -3.69222,
+            "planned": false,
+            "providerCode": "madrid",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_south",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Milan",
+            "country": "IT",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 45.466667,
+            "locationLong": 9.2,
+            "planned": false,
+            "providerCode": "milan",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_south",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "New York",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 40.7141667,
+            "locationLong": -74.0063889,
+            "planned": false,
+            "providerCode": "new-york",
+            "regions": [
+                "us",
+                "us_east",
+                "us_northeast",
+                "us_northeast_midatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "NY"
+        },
+        {
+            "city": "Paris",
+            "country": "FR",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 48.866667,
+            "locationLong": 2.333333,
+            "planned": false,
+            "providerCode": "paris",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Singapore",
+            "country": "SG",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 1.2930556,
+            "locationLong": 103.8558333,
+            "planned": false,
+            "providerCode": "singapore",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast"
+            ],
+            "special": false
+        },
+        {
+            "city": "Slough",
+            "country": "GB",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 51.5,
+            "locationLong": -0.583333,
+            "planned": false,
+            "providerCode": "slough",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Stockholm",
+            "country": "SE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 59.333333,
+            "locationLong": 18.05,
+            "planned": false,
+            "providerCode": "stockholm",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Zurich",
+            "country": "CH",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 47.366667,
+            "locationLong": 8.55,
+            "planned": false,
+            "providerCode": "zurich",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        }
+    ],
+    "serviceId": "interoute:compute",
+    "shortName": "Infrastructure",
+    "sla": 99.99,
+    "slaDescription": "For the purpose of Availability measurement, Service Unavailability excludes any Planned Outage/s",
+    "slaLink": "http://www.interoute.com/sites/default/files/basic-page/file-attachments/VDC%20SLA%20Annex%20%E2%80%93%20Eng%20-%20v2.1%20-%2007.08.15_0.pdf",
+    "type": "compute",
+    "website": "https://cloudstore.interoute.com/pricing"
+}
