@@ -1,0 +1,130 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "Rackspace Cloud Servers",
+    "pricingComment": "New Rackspace customers must select a service level - one of the following apply:\n\nManaged Infrastructure - Minimum $50/mo\nManaged Operations: SysOps - Minimum $500/mo\nManaged Operations: DevOps Automation - Minimum $2,500/mo",
+    "providerId": "rackspace",
+    "regions": [
+        {
+            "city": "Dallas",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 32.7833333,
+            "locationLong": -96.8,
+            "planned": false,
+            "providerCode": "DFW",
+            "regions": [
+                "us",
+                "us_south",
+                "us_south_westsouthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "TX"
+        },
+        {
+            "city": "Hong Kong",
+            "country": "HK",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 22.2833333,
+            "locationLong": 114.15,
+            "planned": false,
+            "providerCode": "HKG",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "planned": false,
+            "providerCode": "IAD",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "VA"
+        },
+        {
+            "city": "London",
+            "country": "GB",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 51.514125,
+            "locationLong": -0.093689,
+            "planned": false,
+            "providerCode": "LON",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Chicago",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 41.85,
+            "locationLong": -87.65,
+            "planned": false,
+            "providerCode": "ORD",
+            "regions": [
+                "us",
+                "us_midwest",
+                "us_midwest_eastnorthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "IL"
+        },
+        {
+            "city": "Sydney",
+            "country": "AU",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -33.861481,
+            "locationLong": 151.205475,
+            "planned": false,
+            "providerCode": "SYD",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": false
+        }
+    ],
+    "regionsComment": "Rackspace Cloud London is run as a separate company. Use of the London region is not possible using the US Rackspace website. To use the London region, customers must sign up for a separate account at http://www.rackspace.co.uk",
+    "serviceId": "rackspace:servers",
+    "sla": 100,
+    "slaDescription": "Rackspace has multiple SLA metrics for Cloud Servers. They guarantee 100% availability for network and facilities. For server hardware, they guarantee failures will be resolved in 1 hour. No SLA credit will be offered unless hardware failure resolution exceeds 1 hour.\n\nCloud Server Hosts:\nRackspace guarantees the functioning of all Host Servers hosting the Cloud Servers or Cluster (including the hypervisor, where applicable). If a Host Server hosting a Cloud Server or Cluster fails, Rackspace guarantee that restoration or repair will be complete within one hour of problem identification. If we fail to meet this guarantee you will be eligible for a credit, as follows: Five percent (5%) of the Service Fees for each additional hour of unavailability (or portion thereof), after the first hour, up to one hundred percent (100%) of the Service Fees.\n\nNetwork:\nWe guaranty that our data center network will be available 100% of the time in any given monthly billing period, excluding scheduled maintenance.\n\nData Center Infrastructure:\nRackspace guarantees that data center HVAC (heating, ventilation, and air conditioning) and Power will be functioning one hundred percent (100%) of the time in any given monthly billing period.",
+    "slaLink": "https://www.rackspace.com/information/legal/cloud/sla",
+    "type": "compute",
+    "website": "http://www.rackspace.com/cloud/servers"
+}

@@ -1,0 +1,844 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "Microsoft Azure Virtual Machines",
+    "notes": "* Azure refers to virtual machine local disks as \u201cTemporary\u201d. Data stored on local disks is subject to complete loss at any time if a VM is migrated (e.g. maintenance, host failure, etc.)\n* Managed Premium disks don\u2019t support P60\n* Unmanaged Premium P60 - 8TB, 7500 IOPS, 250MB/sec, charged at $851.48-$1144.71\n* Unmanaged Premium disks don\u2019t support P4 and P6",
+    "providerId": "azure",
+    "regions": [
+        {
+            "city": "Hong Kong",
+            "country": "HK",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 22.2833333,
+            "locationLong": 114.15,
+            "planned": false,
+            "providerCode": "asia-east",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Singapore",
+            "country": "SG",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 1.2930556,
+            "locationLong": 103.8558333,
+            "planned": false,
+            "providerCode": "asia-southeast",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast"
+            ],
+            "special": false
+        },
+        {
+            "city": "Canberra",
+            "country": "AU",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -35.27603,
+            "locationLong": 149.13435,
+            "planned": false,
+            "providerCode": "australia-central",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": false
+        },
+        {
+            "city": "Canberra",
+            "country": "AU",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -35.27603,
+            "locationLong": 149.13435,
+            "planned": false,
+            "providerCode": "australia-central2",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": false
+        },
+        {
+            "city": "Sydney",
+            "country": "AU",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -33.861481,
+            "locationLong": 151.205475,
+            "planned": false,
+            "providerCode": "australia-east",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": false
+        },
+        {
+            "city": "Melbourne",
+            "country": "AU",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -37.813938,
+            "locationLong": 144.963425,
+            "planned": false,
+            "providerCode": "australia-southeast",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": false
+        },
+        {
+            "city": "Sao Paulo",
+            "country": "BR",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -23.53,
+            "locationLong": -46.63,
+            "planned": false,
+            "providerCode": "brazil-south",
+            "regions": [
+                "america",
+                "america_central_south",
+                "america_south"
+            ],
+            "special": false
+        },
+        {
+            "city": "Toronto",
+            "country": "CA",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 43.666667,
+            "locationLong": -79.416667,
+            "planned": false,
+            "providerCode": "canada-central",
+            "regions": [
+                "ca",
+                "america",
+                "america_north"
+            ],
+            "special": false
+        },
+        {
+            "city": "Quebec City",
+            "country": "CA",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 46.8167,
+            "locationLong": -71.2167,
+            "planned": false,
+            "providerCode": "canada-east",
+            "regions": [
+                "ca",
+                "america",
+                "america_north"
+            ],
+            "special": false
+        },
+        {
+            "city": "Shanghai",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 31.045556,
+            "locationLong": 121.399722,
+            "notes": "Azure is available in China through a unique partnership between Microsoft and 21Vianet - access to this region requires special permission",
+            "planned": false,
+            "providerCode": "china-east",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": true
+        },
+        {
+            "city": "Shanghai",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 31.045556,
+            "locationLong": 121.399722,
+            "notes": "Azure is available in China through a unique partnership between Microsoft and 21Vianet - access to this region requires special permission",
+            "planned": false,
+            "providerCode": "china-east2",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": true
+        },
+        {
+            "city": "Beijing",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 30.822638,
+            "locationLong": 114.047944,
+            "notes": "Azure is available in China through a unique partnership between Microsoft and 21Vianet - access to this region requires special permission",
+            "planned": false,
+            "providerCode": "china-north",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": true
+        },
+        {
+            "city": "Beijing",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 30.822638,
+            "locationLong": 114.047944,
+            "notes": "Azure is available in China through a unique partnership between Microsoft and 21Vianet - access to this region requires special permission",
+            "planned": false,
+            "providerCode": "china-north2",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": true
+        },
+        {
+            "city": "Dublin",
+            "country": "IE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 53.3330556,
+            "locationLong": -6.2488889,
+            "planned": false,
+            "providerCode": "eu-north",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Amsterdam",
+            "country": "NL",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 52.35,
+            "locationLong": 4.916667,
+            "planned": false,
+            "providerCode": "eu-west",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Paris",
+            "country": "FR",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 48.866667,
+            "locationLong": 2.333333,
+            "planned": false,
+            "providerCode": "france-central",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Marseille",
+            "country": "FR",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 43.285413,
+            "locationLong": 5.37606,
+            "planned": false,
+            "providerCode": "france-south",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Frankfurt",
+            "country": "DE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 50.116667,
+            "locationLong": 8.683333,
+            "notes": "In Germany Azure will be available via a new data trustee model whereby customer data remains in Germany under the control of T-Systems a Deutsche Telekom company acting as the German data trustee",
+            "planned": false,
+            "providerCode": "germany-central",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Magdeburg",
+            "country": "DE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 52.166667,
+            "locationLong": 11.666667,
+            "notes": "In Germany Azure will be available via a new data trustee model whereby customer data remains in Germany under the control of T-Systems a Deutsche Telekom company acting as the German data trustee",
+            "planned": false,
+            "providerCode": "germany-northeast",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Pune",
+            "country": "IN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 18.533333,
+            "locationLong": 73.866667,
+            "notes": "India regions are available to customers with a business presence in India",
+            "planned": false,
+            "providerCode": "india-central",
+            "regions": [
+                "asia",
+                "asia_south"
+            ],
+            "special": true
+        },
+        {
+            "city": "Chennai",
+            "country": "IN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 13.083333,
+            "locationLong": 80.283333,
+            "notes": "India regions are available to customers with a business presence in India",
+            "planned": false,
+            "providerCode": "india-south",
+            "regions": [
+                "asia",
+                "asia_south"
+            ],
+            "special": true
+        },
+        {
+            "city": "Mumbai",
+            "country": "IN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 18.975,
+            "locationLong": 72.825833,
+            "notes": "India regions are available to customers with a business presence in India",
+            "planned": false,
+            "providerCode": "india-west",
+            "regions": [
+                "asia",
+                "asia_south"
+            ],
+            "special": true
+        },
+        {
+            "city": "Saitama",
+            "country": "JP",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 35.895534,
+            "locationLong": 139.67747,
+            "planned": false,
+            "providerCode": "japan-east",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "jp"
+            ],
+            "special": false
+        },
+        {
+            "city": "Osaka",
+            "country": "JP",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 34.516855,
+            "locationLong": 135.562978,
+            "planned": false,
+            "providerCode": "japan-west",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "jp"
+            ],
+            "special": false
+        },
+        {
+            "city": "Seoul",
+            "country": "KR",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 37.5985,
+            "locationLong": 126.9783,
+            "planned": false,
+            "providerCode": "korea-central",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Busan",
+            "country": "KR",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 37.1525,
+            "locationLong": 127.095,
+            "planned": false,
+            "providerCode": "korea-south",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Johannesburg",
+            "country": "ZA",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -26.205171,
+            "locationLong": 28.049815,
+            "planned": true,
+            "providerCode": "southafrica-north",
+            "regions": [
+                "eu_africa",
+                "africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Cape Town",
+            "country": "ZA",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -33.925839,
+            "locationLong": 18.423218,
+            "planned": true,
+            "providerCode": "southafrica-west",
+            "regions": [
+                "eu_africa",
+                "africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Zurich",
+            "country": "CH",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 47.366667,
+            "locationLong": 8.55,
+            "planned": true,
+            "providerCode": "switzerland-north",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Geneva",
+            "country": "CH",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 46.195602,
+            "locationLong": 6.148113,
+            "planned": true,
+            "providerCode": "switzerland-west",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Abu Dhabi",
+            "country": "AE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 24.466667,
+            "locationLong": 54.366667,
+            "planned": true,
+            "providerCode": "uae-central",
+            "regions": [
+                "asia"
+            ],
+            "special": false
+        },
+        {
+            "city": "Dubai",
+            "country": "AE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 25.258172,
+            "locationLong": 55.304717,
+            "planned": true,
+            "providerCode": "uae-north",
+            "regions": [
+                "asia"
+            ],
+            "special": false
+        },
+        {
+            "city": "London",
+            "country": "GB",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 51.514125,
+            "locationLong": -0.093689,
+            "planned": false,
+            "providerCode": "uk-south",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Cardiff",
+            "country": "GB",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 51.5,
+            "locationLong": -3.2,
+            "planned": false,
+            "providerCode": "uk-west",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "West Des Moines",
+            "country": "US",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 41.5772222,
+            "locationLong": -93.7111111,
+            "planned": false,
+            "providerCode": "us-central",
+            "regions": [
+                "us",
+                "us_midwest",
+                "us_midwest_westnorthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "IA"
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "planned": false,
+            "providerCode": "us-east",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "VA"
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "planned": false,
+            "providerCode": "us-east2",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "VA"
+        },
+        {
+            "city": "Chicago",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 41.85,
+            "locationLong": -87.65,
+            "planned": false,
+            "providerCode": "us-northcentral",
+            "regions": [
+                "us",
+                "us_midwest",
+                "us_midwest_eastnorthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "IL"
+        },
+        {
+            "city": "San Antonio",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 29.4238889,
+            "locationLong": -98.4933333,
+            "planned": false,
+            "providerCode": "us-southcentral",
+            "regions": [
+                "us",
+                "us_south",
+                "us_south_westsouthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "TX"
+        },
+        {
+            "city": "San Francisco",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 37.775,
+            "locationLong": -122.4183333,
+            "planned": false,
+            "providerCode": "us-west",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "CA"
+        },
+        {
+            "city": "Quincy",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 47.2344444,
+            "locationLong": -119.8513889,
+            "planned": false,
+            "providerCode": "us-west2",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "WA"
+        },
+        {
+            "city": "Cheyenne",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 41.14,
+            "locationLong": -104.8197222,
+            "planned": false,
+            "providerCode": "us-westcentral",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_mountain",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "WY"
+        },
+        {
+            "city": "West Des Moines",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 41.5772222,
+            "locationLong": -93.7111111,
+            "planned": false,
+            "providerCode": "usdod-central",
+            "regions": [
+                "us",
+                "us_midwest",
+                "us_midwest_westnorthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": true,
+            "state": "IA"
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "planned": false,
+            "providerCode": "usdod-east",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": true,
+            "state": "VA"
+        },
+        {
+            "city": "Phoenix",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 33.4483333,
+            "locationLong": -112.0733333,
+            "planned": false,
+            "providerCode": "usgov-arizona",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_mountain",
+                "america",
+                "america_north"
+            ],
+            "special": true,
+            "state": "AZ"
+        },
+        {
+            "city": "West Des Moines",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 41.5772222,
+            "locationLong": -93.7111111,
+            "planned": false,
+            "providerCode": "usgov-iowa",
+            "regions": [
+                "us",
+                "us_midwest",
+                "us_midwest_westnorthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": true,
+            "state": "IA"
+        },
+        {
+            "city": "Dallas",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 32.7833333,
+            "locationLong": -96.8,
+            "planned": false,
+            "providerCode": "usgov-texas",
+            "regions": [
+                "us",
+                "us_south",
+                "us_south_westsouthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": true,
+            "state": "TX"
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "planned": false,
+            "providerCode": "usgov-virginia",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": true,
+            "state": "VA"
+        }
+    ],
+    "serviceId": "azure:compute",
+    "shortName": "Azure VMs",
+    "sla": 99.95,
+    "slaDescription": "* For Cloud Services, we guarantee that when you deploy two or more role instances in different fault and upgrade domains, your Internet facing roles will have external connectivity at least 99.95% of the time.\n\n* For all Internet facing Virtual Machines that have two or more instances deployed in the same Availability Set, we guarantee you will have external connectivity at least 99.95% of the time. \n\n* For Virtual Network, we guarantee a 99.9% Virtual Network Gateway availability.",
+    "slaLink": "http://www.windowsazure.com/en-us/support/legal/sla/",
+    "type": "compute",
+    "website": "http://azure.microsoft.com"
+}

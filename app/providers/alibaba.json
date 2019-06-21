@@ -1,0 +1,334 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "Alibaba Elastic Compute Service",
+    "providerId": "alibaba",
+    "regions": [
+        {
+            "city": "Tokyo",
+            "country": "JP",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 35.685,
+            "locationLong": 139.751389,
+            "notes": "Asia Pacific NE 1 (Japan)",
+            "planned": false,
+            "providerCode": "ap-northeast-1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "jp"
+            ]
+        },
+        {
+            "city": "Mumbai",
+            "country": "IN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 18.975,
+            "locationLong": 72.825833,
+            "notes": "Asia Pacific SOU 1 (Mumbai)",
+            "planned": false,
+            "providerCode": "ap-south-1",
+            "regions": [
+                "asia",
+                "asia_south"
+            ],
+            "special": false
+        },
+        {
+            "city": "Singapore",
+            "country": "SG",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 1.2930556,
+            "locationLong": 103.8558333,
+            "notes": "Asia Pacific SE 1 (Singapore)",
+            "planned": false,
+            "providerCode": "ap-southeast-1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast"
+            ]
+        },
+        {
+            "city": "Sydney",
+            "country": "AU",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -33.861481,
+            "locationLong": 151.205475,
+            "notes": "Asia Pacific SE 2 (Sydney)",
+            "planned": false,
+            "providerCode": "ap-southeast-2",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ]
+        },
+        {
+            "city": "Kuala Lumpur",
+            "country": "MY",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 3.166667,
+            "locationLong": 101.7,
+            "notes": "Asia Pacific SE 3 (Kuala Lumpur)",
+            "planned": false,
+            "providerCode": "ap-southeast-3",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast"
+            ],
+            "special": false
+        },
+        {
+            "city": "Jakarta",
+            "country": "ID",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -6.174444,
+            "locationLong": 106.829444,
+            "notes": "Asia Pacific SE 5 (Jakarta)",
+            "planned": false,
+            "providerCode": "ap-southeast-5",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast",
+                "oceania"
+            ],
+            "special": false
+        },
+        {
+            "city": "Beijing",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 30.822638,
+            "locationLong": 114.047944,
+            "notes": "China North 2 (Beijing)",
+            "planned": false,
+            "providerCode": "cn-beijing",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ]
+        },
+        {
+            "city": "Hangzhou",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 30.29365,
+            "locationLong": 120.161419,
+            "notes": "China East 1 (Hangzhou)",
+            "planned": false,
+            "providerCode": "cn-hangzhou",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ]
+        },
+        {
+            "city": "Hong Kong",
+            "country": "HK",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 22.2833333,
+            "locationLong": 114.15,
+            "notes": "Hong Kong",
+            "planned": false,
+            "providerCode": "cn-hongkong",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Huhehaote",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 40.810556,
+            "locationLong": 111.652222,
+            "notes": "China North 5 (Huhehaote)",
+            "planned": false,
+            "providerCode": "cn-huhehaote",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Qingdao",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 36.098611,
+            "locationLong": 120.371944,
+            "notes": "China North 1 (Qingdao)",
+            "planned": false,
+            "providerCode": "cn-qingdao",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ]
+        },
+        {
+            "city": "Shanghai",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 31.045556,
+            "locationLong": 121.399722,
+            "notes": "China East 2 (Shanghai)",
+            "planned": false,
+            "providerCode": "cn-shanghai",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ]
+        },
+        {
+            "city": "Shenzhen",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 22.533333,
+            "locationLong": 114.133333,
+            "notes": "China South 1 (Shenzhen)",
+            "planned": false,
+            "providerCode": "cn-shenzhen",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ]
+        },
+        {
+            "city": "Zhangjiakou",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 40.81,
+            "locationLong": 114.879444,
+            "notes": "China North 3 (Zhangjiakou)",
+            "planned": false,
+            "providerCode": "cn-zhangjiakou",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Frankfurt",
+            "country": "DE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 50.116667,
+            "locationLong": 8.683333,
+            "notes": "Germany 1 (Frankfurt)",
+            "planned": false,
+            "providerCode": "eu-central-1",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ]
+        },
+        {
+            "city": "Istanbul",
+            "country": "TR",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 41.018611,
+            "locationLong": 28.964722,
+            "planned": true,
+            "providerCode": "istanbul",
+            "regions": [
+                "eu",
+                "eu_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Dubai",
+            "country": "AE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 25.258172,
+            "locationLong": 55.304717,
+            "notes": "Middle East 1 (Dubai)",
+            "planned": false,
+            "providerCode": "me-east-1",
+            "regions": [
+                "asia"
+            ]
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "notes": "US East 1 (Virginia)",
+            "planned": false,
+            "providerCode": "us-east-1",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "state": "VA"
+        },
+        {
+            "city": "San Francisco",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 37.775,
+            "locationLong": -122.4183333,
+            "notes": "US West 1 (Silicon Valley)",
+            "planned": false,
+            "providerCode": "us-west-1",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "state": "CA"
+        }
+    ],
+    "serviceId": "alibaba:compute",
+    "shortName": "Alibaba ECS",
+    "sla": 99.95,
+    "slaDescription": "For an instance with a single deployment, users with 99.95% less uptime will receive 10% service credit (Monthly Service fee Per Instance), this will rise to 25% should the service fall below 99% uptime, and 100% if it falls below 95% uptime. \n\nFor an instance deployed in two or more zones in one region, the SLA is 99.99%. Users will receive 10% service credit for uptime less than 99.99%, or 25% for uptime less than 99% but greater or equal to 95%, or 100% for uptime less than 95%.",
+    "slaLink": "https://www.alibabacloud.com/help/faq-detail/42436.htm",
+    "type": "compute",
+    "website": "https://www.alibabacloud.com/product/ecs"
+}

@@ -1,0 +1,120 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "UpCloud",
+    "providerId": "upcloud",
+    "regions": [
+        {
+            "city": "Amsterdam",
+            "country": "NL",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 52.35,
+            "locationLong": 4.916667,
+            "planned": false,
+            "providerCode": "amsterdam",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Chicago",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 41.85,
+            "locationLong": -87.65,
+            "planned": false,
+            "providerCode": "chicago",
+            "regions": [
+                "us",
+                "us_midwest",
+                "us_midwest_eastnorthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "IL"
+        },
+        {
+            "city": "Frankfurt",
+            "country": "DE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 50.116667,
+            "locationLong": 8.683333,
+            "planned": false,
+            "providerCode": "frankfurt",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Helsinki",
+            "country": "FI",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 60.175556,
+            "locationLong": 24.934167,
+            "planned": false,
+            "providerCode": "helsinki",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "London",
+            "country": "GB",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 51.514125,
+            "locationLong": -0.093689,
+            "planned": false,
+            "providerCode": "london",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Singapore",
+            "country": "SG",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 1.2930556,
+            "locationLong": 103.8558333,
+            "planned": false,
+            "providerCode": "singapore",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast"
+            ],
+            "special": false
+        }
+    ],
+    "serviceId": "upcloud:compute",
+    "sla": 100,
+    "slaDescription": "UpCloud will guarantee 100% virtual server and network availability to the Customer. The network will be deemed available if UpCloud's routers and switches are available and responding properly. For all unscheduled interruptions in the provision of the Services, which are due to hardware or telecommunications failures that last longer than 5 minutes, UpCloud shall offer compensation to the Customer.",
+    "slaLink": "https://www.upcloud.com/documentation/terms/",
+    "type": "compute"
+}
