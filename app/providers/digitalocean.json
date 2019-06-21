@@ -17,6 +17,7 @@
             "locationLat": 52.35,
             "locationLong": 4.916667,
             "providerCode": "ams2",
+            "providerCodeApi": "ams2",
             "regions": [
                 "eu",
                 "eu_central",
@@ -30,7 +31,9 @@
             "facilities": 1,
             "locationLat": 52.35,
             "locationLong": 4.916667,
+            "planned": false,
             "providerCode": "ams3",
+            "providerCodeApi": "ams3",
             "regions": [
                 "eu",
                 "eu_central",
@@ -45,6 +48,7 @@
             "locationLat": 12.983333,
             "locationLong": 77.583333,
             "providerCode": "blr1",
+            "providerCodeApi": "blr1",
             "regions": [
                 "asia",
                 "asia_south"
@@ -58,6 +62,7 @@
             "locationLat": 50.116667,
             "locationLong": 8.683333,
             "providerCode": "fra1",
+            "providerCodeApi": "fra1",
             "regions": [
                 "eu",
                 "eu_central",
@@ -73,6 +78,7 @@
             "locationLong": -0.093689,
             "planned": false,
             "providerCode": "lon1",
+            "providerCodeApi": "lon1",
             "regions": [
                 "eu",
                 "eu_west",
@@ -90,6 +96,7 @@
             "locationLong": -74.0063889,
             "planned": false,
             "providerCode": "ny1",
+            "providerCodeApi": "ny1",
             "regions": [
                 "us",
                 "us_east",
@@ -110,6 +117,7 @@
             "locationLong": -74.0063889,
             "planned": false,
             "providerCode": "ny2",
+            "providerCodeApi": "ny2",
             "regions": [
                 "us",
                 "us_east",
@@ -130,6 +138,7 @@
             "locationLong": -74.0063889,
             "planned": false,
             "providerCode": "ny3",
+            "providerCodeApi": "ny3",
             "regions": [
                 "us",
                 "us_east",
@@ -150,6 +159,7 @@
             "locationLong": -122.4183333,
             "planned": false,
             "providerCode": "sfo1",
+            "providerCodeApi": "sfo1",
             "regions": [
                 "us",
                 "us_west",
@@ -167,7 +177,9 @@
             "facilities": 1,
             "locationLat": 37.775,
             "locationLong": -122.4183333,
+            "planned": false,
             "providerCode": "sfo2",
+            "providerCodeApi": "sfo2",
             "regions": [
                 "us",
                 "us_west",
@@ -186,6 +198,7 @@
             "locationLong": 103.8558333,
             "planned": false,
             "providerCode": "sg1",
+            "providerCodeApi": "sg1",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -201,6 +214,7 @@
             "locationLat": 43.666667,
             "locationLong": -79.416667,
             "providerCode": "tor1",
+            "providerCodeApi": "tor1",
             "regions": [
                 "ca",
                 "america",

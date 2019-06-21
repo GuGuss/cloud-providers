@@ -19,6 +19,7 @@
             "locationLong": 114.047944,
             "planned": false,
             "providerCode": "ap-china-1",
+            "providerCodeApi": "ap-china-1",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -30,11 +31,12 @@
             "city": "Hong Kong",
             "country": "HK",
             "estimated": false,
-            "facilities": 1,
+            "facilities": 3,
             "locationLat": 22.2833333,
             "locationLong": 114.15,
-            "planned": true,
-            "providerCode": "ap-hong-kong",
+            "planned": false,
+            "providerCode": "ap-east-1",
+            "providerCodeApi": "ap-east-1",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -52,6 +54,7 @@
             "notes": "New customers can access three EC2 Availability Zones in Asia Pacific (Tokyo)",
             "planned": false,
             "providerCode": "ap-northeast-1",
+            "providerCodeApi": "ap-northeast-1",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -63,11 +66,12 @@
             "city": "Seoul",
             "country": "KR",
             "estimated": false,
-            "facilities": 2,
+            "facilities": 3,
             "locationLat": 37.5985,
             "locationLong": 126.9783,
             "planned": false,
             "providerCode": "ap-northeast-2",
+            "providerCodeApi": "ap-northeast-2",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -85,6 +89,7 @@
             "notes": "The Asia Pacific (Osaka) Local Region is a Local Region",
             "planned": false,
             "providerCode": "ap-northeast-3",
+            "providerCodeApi": "ap-northeast-3",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -96,11 +101,12 @@
             "city": "Mumbai",
             "country": "IN",
             "estimated": false,
-            "facilities": 2,
+            "facilities": 3,
             "locationLat": 18.975,
             "locationLong": 72.825833,
             "planned": false,
             "providerCode": "ap-south-1",
+            "providerCodeApi": "ap-south-1",
             "regions": [
                 "asia",
                 "asia_south"
@@ -116,6 +122,7 @@
             "locationLong": 103.8558333,
             "planned": false,
             "providerCode": "ap-southeast-1",
+            "providerCodeApi": "ap-southeast-1",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -132,6 +139,7 @@
             "locationLong": 151.205475,
             "planned": false,
             "providerCode": "ap-southeast-2",
+            "providerCodeApi": "ap-southeast-2",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -149,6 +157,7 @@
             "notes": "Data centers are located in 2 different cities: Montreal and Toronto",
             "planned": false,
             "providerCode": "ca-central-1",
+            "providerCodeApi": "ca-central-1",
             "regions": [
                 "ca",
                 "america",
@@ -165,6 +174,7 @@
             "locationLong": 112.55,
             "planned": false,
             "providerCode": "cn-northwest-1",
+            "providerCodeApi": "cn-northwest-1",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -181,6 +191,7 @@
             "locationLong": 8.683333,
             "planned": false,
             "providerCode": "eu-central-1",
+            "providerCodeApi": "eu-central-1",
             "regions": [
                 "eu",
                 "eu_central",
@@ -189,21 +200,39 @@
             "special": false
         },
         {
+            "city": "Milan",
+            "country": "IT",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 45.466667,
+            "locationLong": 9.2,
+            "planned": true,
+            "providerCode": "eu-milan",
+            "providerCodeApi": "eu-milan",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_south",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
             "city": "Stockholm",
             "country": "SE",
             "estimated": false,
-            "facilities": 1,
+            "facilities": 3,
             "locationLat": 59.333333,
             "locationLong": 18.05,
-            "planned": true,
-            "providerCode": "eu-stockholm",
+            "planned": false,
+            "providerCode": "eu-north-1",
+            "providerCodeApi": "eu-north-1",
             "regions": [
                 "eu",
                 "eu_west",
                 "eu_north",
                 "eu_africa"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Dublin",
@@ -214,6 +243,7 @@
             "locationLong": -6.2488889,
             "planned": false,
             "providerCode": "eu-west-1",
+            "providerCodeApi": "eu-west-1",
             "regions": [
                 "eu",
                 "eu_west",
@@ -231,6 +261,7 @@
             "locationLong": -0.093689,
             "planned": false,
             "providerCode": "eu-west-2",
+            "providerCodeApi": "eu-west-2",
             "regions": [
                 "eu",
                 "eu_west",
@@ -248,12 +279,30 @@
             "locationLong": 2.333333,
             "planned": false,
             "providerCode": "eu-west-3",
+            "providerCodeApi": "eu-west-3",
             "regions": [
                 "eu",
                 "eu_west",
                 "eu_africa"
             ],
             "special": false
+        },
+        {
+            "city": "Jakarta",
+            "country": "ID",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": -6.174444,
+            "locationLong": 106.829444,
+            "planned": true,
+            "providerCode": "id-jakarta",
+            "providerCodeApi": "id-jakarta",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast",
+                "oceania"
+            ]
         },
         {
             "city": "Manama",
@@ -264,6 +313,7 @@
             "locationLong": 50.5830556,
             "planned": true,
             "providerCode": "manama",
+            "providerCodeApi": "manama",
             "regions": [
                 "asia"
             ],
@@ -276,12 +326,30 @@
             "facilities": 3,
             "locationLat": -23.53,
             "locationLong": -46.63,
+            "notes": "New customers can access two EC2 Availability Zones in South America (S\u00e3o Paulo)",
             "planned": false,
             "providerCode": "sa-east-1",
+            "providerCodeApi": "sa-east-1",
             "regions": [
                 "america",
                 "america_central_south",
                 "america_south"
+            ],
+            "special": false
+        },
+        {
+            "city": "Cape Town",
+            "country": "ZA",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -33.925839,
+            "locationLong": 18.423218,
+            "planned": true,
+            "providerCode": "southafrica-west-cape-town",
+            "providerCodeApi": "southafrica-west-cape-town",
+            "regions": [
+                "eu_africa",
+                "africa"
             ],
             "special": false
         },
@@ -294,6 +362,7 @@
             "locationLong": -77.48,
             "planned": false,
             "providerCode": "us-east-1",
+            "providerCodeApi": "us-east-1",
             "regions": [
                 "us",
                 "us_east",
@@ -315,6 +384,7 @@
             "notes": "Data centers are located in 3 different cities near Columbus: New Albany",
             "planned": false,
             "providerCode": "us-east-2",
+            "providerCodeApi": "us-east-2",
             "regions": [
                 "us",
                 "us_midwest",
@@ -327,6 +397,27 @@
             "state": "OH"
         },
         {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "planned": false,
+            "providerCode": "us-gov-east-1",
+            "providerCodeApi": "us-gov-east-1",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": true,
+            "state": "VA"
+        },
+        {
             "city": "Portland",
             "country": "US",
             "estimated": false,
@@ -335,6 +426,7 @@
             "locationLong": -122.675,
             "planned": false,
             "providerCode": "us-gov-west-1",
+            "providerCodeApi": "us-gov-west-1",
             "regions": [
                 "us",
                 "us_west",
@@ -352,8 +444,10 @@
             "facilities": 3,
             "locationLat": 37.3394444,
             "locationLong": -121.8938889,
+            "notes": "New customers can access two EC2 Availability Zones in US West (Northern California)",
             "planned": false,
             "providerCode": "us-west-1",
+            "providerCodeApi": "us-west-1",
             "regions": [
                 "us",
                 "us_west",
@@ -367,11 +461,12 @@
             "city": "Portland",
             "country": "US",
             "estimated": false,
-            "facilities": 3,
+            "facilities": 4,
             "locationLat": 45.5236111,
             "locationLong": -122.675,
             "planned": false,
             "providerCode": "us-west-2",
+            "providerCodeApi": "us-west-2",
             "regions": [
                 "us",
                 "us_west",

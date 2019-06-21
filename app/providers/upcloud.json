@@ -18,6 +18,7 @@
             "locationLong": 4.916667,
             "planned": false,
             "providerCode": "amsterdam",
+            "providerCodeApi": "amsterdam",
             "regions": [
                 "eu",
                 "eu_central",
@@ -34,6 +35,7 @@
             "locationLong": -87.65,
             "planned": false,
             "providerCode": "chicago",
+            "providerCodeApi": "chicago",
             "regions": [
                 "us",
                 "us_midwest",
@@ -54,6 +56,7 @@
             "locationLong": 8.683333,
             "planned": false,
             "providerCode": "frankfurt",
+            "providerCodeApi": "frankfurt",
             "regions": [
                 "eu",
                 "eu_central",
@@ -65,11 +68,12 @@
             "city": "Helsinki",
             "country": "FI",
             "estimated": false,
-            "facilities": 1,
+            "facilities": 2,
             "locationLat": 60.175556,
             "locationLong": 24.934167,
             "planned": false,
             "providerCode": "helsinki",
+            "providerCodeApi": "helsinki",
             "regions": [
                 "eu",
                 "eu_west",
@@ -87,6 +91,7 @@
             "locationLong": -0.093689,
             "planned": false,
             "providerCode": "london",
+            "providerCodeApi": "london",
             "regions": [
                 "eu",
                 "eu_west",
@@ -94,6 +99,25 @@
                 "eu_africa"
             ],
             "special": false
+        },
+        {
+            "city": "San Jose",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 37.3394444,
+            "locationLong": -121.8938889,
+            "planned": false,
+            "providerCode": "san-jose",
+            "providerCodeApi": "san-jose",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "state": "CA"
         },
         {
             "city": "Singapore",
@@ -104,6 +128,7 @@
             "locationLong": 103.8558333,
             "planned": false,
             "providerCode": "singapore",
+            "providerCodeApi": "singapore",
             "regions": [
                 "asia",
                 "asia_apac",

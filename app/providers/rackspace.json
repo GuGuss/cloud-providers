@@ -19,6 +19,7 @@
             "locationLong": -96.8,
             "planned": false,
             "providerCode": "DFW",
+            "providerCodeApi": "DFW",
             "regions": [
                 "us",
                 "us_south",
@@ -39,6 +40,7 @@
             "locationLong": 114.15,
             "planned": false,
             "providerCode": "HKG",
+            "providerCodeApi": "HKG",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -55,6 +57,7 @@
             "locationLong": -77.48,
             "planned": false,
             "providerCode": "IAD",
+            "providerCodeApi": "IAD",
             "regions": [
                 "us",
                 "us_east",
@@ -75,6 +78,7 @@
             "locationLong": -0.093689,
             "planned": false,
             "providerCode": "LON",
+            "providerCodeApi": "LON",
             "regions": [
                 "eu",
                 "eu_west",
@@ -92,6 +96,7 @@
             "locationLong": -87.65,
             "planned": false,
             "providerCode": "ORD",
+            "providerCodeApi": "ORD",
             "regions": [
                 "us",
                 "us_midwest",
@@ -112,6 +117,7 @@
             "locationLong": 151.205475,
             "planned": false,
             "providerCode": "SYD",
+            "providerCodeApi": "SYD",
             "regions": [
                 "asia",
                 "asia_apac",

@@ -18,6 +18,7 @@
             "locationLong": 4.916667,
             "planned": false,
             "providerCode": "amsterdam",
+            "providerCodeApi": "amsterdam",
             "regions": [
                 "eu",
                 "eu_central",
@@ -34,6 +35,7 @@
             "locationLong": 13.4,
             "planned": false,
             "providerCode": "berlin",
+            "providerCodeApi": "berlin",
             "regions": [
                 "eu",
                 "eu_central",
@@ -50,6 +52,7 @@
             "locationLong": 8.683333,
             "planned": false,
             "providerCode": "frankfurt",
+            "providerCodeApi": "frankfurt",
             "regions": [
                 "eu",
                 "eu_central",
@@ -66,6 +69,7 @@
             "locationLong": 6.148113,
             "planned": false,
             "providerCode": "geneva",
+            "providerCodeApi": "geneva",
             "regions": [
                 "eu",
                 "eu_central",
@@ -82,6 +86,7 @@
             "locationLong": 114.15,
             "planned": false,
             "providerCode": "hong-kong",
+            "providerCodeApi": "hong-kong",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -98,6 +103,7 @@
             "locationLong": 28.964722,
             "planned": false,
             "providerCode": "istanbul",
+            "providerCodeApi": "istanbul",
             "regions": [
                 "eu",
                 "eu_east"
@@ -113,6 +119,7 @@
             "locationLong": -0.093689,
             "planned": false,
             "providerCode": "london",
+            "providerCodeApi": "london",
             "regions": [
                 "eu",
                 "eu_west",
@@ -130,6 +137,7 @@
             "locationLong": -118.2427778,
             "planned": false,
             "providerCode": "los-angeles",
+            "providerCodeApi": "los-angeles",
             "regions": [
                 "us",
                 "us_west",
@@ -149,6 +157,7 @@
             "locationLong": -3.69222,
             "planned": false,
             "providerCode": "madrid",
+            "providerCodeApi": "madrid",
             "regions": [
                 "eu",
                 "eu_west",
@@ -166,6 +175,7 @@
             "locationLong": 9.2,
             "planned": false,
             "providerCode": "milan",
+            "providerCodeApi": "milan",
             "regions": [
                 "eu",
                 "eu_west",
@@ -183,6 +193,7 @@
             "locationLong": -74.0063889,
             "planned": false,
             "providerCode": "new-york",
+            "providerCodeApi": "new-york",
             "regions": [
                 "us",
                 "us_east",
@@ -203,6 +214,7 @@
             "locationLong": 2.333333,
             "planned": false,
             "providerCode": "paris",
+            "providerCodeApi": "paris",
             "regions": [
                 "eu",
                 "eu_west",
@@ -219,6 +231,7 @@
             "locationLong": 103.8558333,
             "planned": false,
             "providerCode": "singapore",
+            "providerCodeApi": "singapore",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -235,6 +248,7 @@
             "locationLong": -0.583333,
             "planned": false,
             "providerCode": "slough",
+            "providerCodeApi": "slough",
             "regions": [
                 "eu",
                 "eu_west",
@@ -252,6 +266,7 @@
             "locationLong": 18.05,
             "planned": false,
             "providerCode": "stockholm",
+            "providerCodeApi": "stockholm",
             "regions": [
                 "eu",
                 "eu_west",
@@ -269,6 +284,7 @@
             "locationLong": 8.55,
             "planned": false,
             "providerCode": "zurich",
+            "providerCodeApi": "zurich",
             "regions": [
                 "eu",
                 "eu_central",

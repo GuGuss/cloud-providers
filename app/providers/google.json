@@ -18,9 +18,27 @@
             "locationLong": 120.5333,
             "planned": false,
             "providerCode": "asia-east1",
+            "providerCodeApi": "asia-east1",
             "regions": [
                 "asia",
                 "asia_apac"
+            ],
+            "special": false
+        },
+        {
+            "city": "Hong Kong",
+            "country": "HK",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 22.3964,
+            "locationLong": 114.1095,
+            "planned": false,
+            "providerCode": "asia-east2",
+            "providerCodeApi": "asia-east2",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
             ],
             "special": false
         },
@@ -33,6 +51,24 @@
             "locationLong": 139.6917,
             "planned": false,
             "providerCode": "asia-northeast1",
+            "providerCodeApi": "asia-northeast1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "jp"
+            ],
+            "special": false
+        },
+        {
+            "city": "Osaka",
+            "country": "JP",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 34.7029,
+            "locationLong": 135.4986,
+            "planned": false,
+            "providerCode": "asia-northeast2",
+            "providerCodeApi": "asia-northeast2",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -49,6 +85,7 @@
             "locationLong": 72.8777,
             "planned": false,
             "providerCode": "asia-south1",
+            "providerCodeApi": "asia-south1",
             "regions": [
                 "asia",
                 "asia_south"
@@ -64,6 +101,7 @@
             "locationLong": 103.8198,
             "planned": false,
             "providerCode": "asia-southeast1",
+            "providerCodeApi": "asia-southeast1",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -80,6 +118,7 @@
             "locationLong": 151.1912,
             "planned": false,
             "providerCode": "australia-southeast1",
+            "providerCodeApi": "australia-southeast1",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -96,6 +135,7 @@
             "locationLong": 27.1877,
             "planned": false,
             "providerCode": "europe-north1",
+            "providerCodeApi": "europe-north1",
             "regions": [
                 "eu",
                 "eu_west",
@@ -113,6 +153,7 @@
             "locationLong": 3.8649,
             "planned": false,
             "providerCode": "europe-west1",
+            "providerCodeApi": "europe-west1",
             "regions": [
                 "eu",
                 "eu_central",
@@ -129,6 +170,7 @@
             "locationLong": -0.1278,
             "planned": false,
             "providerCode": "europe-west2",
+            "providerCodeApi": "europe-west2",
             "regions": [
                 "eu",
                 "eu_west",
@@ -146,6 +188,7 @@
             "locationLong": 8.6821,
             "planned": false,
             "providerCode": "europe-west3",
+            "providerCodeApi": "europe-west3",
             "regions": [
                 "eu",
                 "eu_central",
@@ -162,12 +205,29 @@
             "locationLong": 6.4936,
             "planned": false,
             "providerCode": "europe-west4",
+            "providerCodeApi": "europe-west4",
             "regions": [
                 "eu",
                 "eu_central",
                 "eu_africa"
             ],
             "special": false
+        },
+        {
+            "city": "Zurich",
+            "country": "CH",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 47.36667,
+            "locationLong": 8.55,
+            "planned": false,
+            "providerCode": "europe-west6",
+            "providerCodeApi": "europe-west6",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ]
         },
         {
             "city": "Montreal",
@@ -178,6 +238,7 @@
             "locationLong": -73.3458,
             "planned": false,
             "providerCode": "northamerica-northeast1",
+            "providerCodeApi": "northamerica-northeast1",
             "regions": [
                 "ca",
                 "america",
@@ -194,6 +255,7 @@
             "locationLong": -46.6333,
             "planned": false,
             "providerCode": "southamerica-east1",
+            "providerCodeApi": "southamerica-east1",
             "regions": [
                 "america",
                 "america_central_south",
@@ -210,6 +272,7 @@
             "locationLong": -95.8608,
             "planned": false,
             "providerCode": "us-central1",
+            "providerCodeApi": "us-central1",
             "regions": [
                 "us",
                 "us_midwest",
@@ -230,6 +293,7 @@
             "locationLong": -80.0131,
             "planned": false,
             "providerCode": "us-east1",
+            "providerCodeApi": "us-east1",
             "regions": [
                 "us",
                 "us_east",
@@ -250,6 +314,7 @@
             "locationLong": -77.4874,
             "planned": false,
             "providerCode": "us-east4",
+            "providerCodeApi": "us-east4",
             "regions": [
                 "us",
                 "us_east",
@@ -270,6 +335,7 @@
             "locationLong": -122.6765,
             "planned": false,
             "providerCode": "us-west1",
+            "providerCodeApi": "us-west1",
             "regions": [
                 "us",
                 "us_west",
@@ -289,6 +355,7 @@
             "locationLong": -118.2437,
             "planned": false,
             "providerCode": "us-west2",
+            "providerCodeApi": "us-west2",
             "regions": [
                 "us",
                 "us_west",
@@ -301,8 +368,8 @@
         }
     ],
     "serviceId": "google:compute",
-    "sla": 99.95,
-    "slaDescription": "The Covered Service will provide a Monthly Uptime Percentage to Customer of at least 99.95% (the \"Service Level Objective\" or \"SLO\"). If Google does not meet the SLO, and if Customer meets its obligations under this SLA, Customer will be eligible to receive Financial Credits.",
+    "sla": 99.99,
+    "slaDescription": "The Covered Service will provide a Monthly Uptime Percentage to Customer of at least 99.99% (the \"Service Level Objective\" or \"SLO\"). If Google does not meet the SLO, and if Customer meets its obligations under this SLA, Customer will be eligible to receive Financial Credits.",
     "slaLink": "https://cloud.google.com/compute/sla",
     "type": "compute",
     "website": "https://cloud.google.com/compute/"

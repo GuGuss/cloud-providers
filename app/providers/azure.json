@@ -7,7 +7,7 @@
     "hasWebProbe": true,
     "hasWebProbeSsl": true,
     "name": "Microsoft Azure Virtual Machines",
-    "notes": "* Azure refers to virtual machine local disks as \u201cTemporary\u201d. Data stored on local disks is subject to complete loss at any time if a VM is migrated (e.g. maintenance, host failure, etc.)\n* Managed Premium disks don\u2019t support P60\n* Unmanaged Premium P60 - 8TB, 7500 IOPS, 250MB/sec, charged at $851.48-$1144.71\n* Unmanaged Premium disks don\u2019t support P4 and P6",
+    "notes": "Azure refers to virtual machine local disks as \u201cTemporary\u201d. Data stored on local disks is subject to complete loss at any time if a VM is migrated (e.g. maintenance, host failure, etc.)",
     "providerId": "azure",
     "regions": [
         {
@@ -19,6 +19,7 @@
             "locationLong": 114.15,
             "planned": false,
             "providerCode": "asia-east",
+            "providerCodeApi": "eastasia",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -35,12 +36,12 @@
             "locationLong": 103.8558333,
             "planned": false,
             "providerCode": "asia-southeast",
+            "providerCodeApi": "southeastasia",
             "regions": [
                 "asia",
                 "asia_apac",
                 "asia_southeast"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Canberra",
@@ -51,6 +52,7 @@
             "locationLong": 149.13435,
             "planned": false,
             "providerCode": "australia-central",
+            "providerCodeApi": "australiacentral",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -67,6 +69,7 @@
             "locationLong": 149.13435,
             "planned": false,
             "providerCode": "australia-central2",
+            "providerCodeApi": "australiacentral2",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -83,6 +86,7 @@
             "locationLong": 151.205475,
             "planned": false,
             "providerCode": "australia-east",
+            "providerCodeApi": "australiaeast",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -99,6 +103,7 @@
             "locationLong": 144.963425,
             "planned": false,
             "providerCode": "australia-southeast",
+            "providerCodeApi": "australiasoutheast",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -115,6 +120,7 @@
             "locationLong": -46.63,
             "planned": false,
             "providerCode": "brazil-south",
+            "providerCodeApi": "brazilsouth",
             "regions": [
                 "america",
                 "america_central_south",
@@ -131,12 +137,12 @@
             "locationLong": -79.416667,
             "planned": false,
             "providerCode": "canada-central",
+            "providerCodeApi": "canadacentral",
             "regions": [
                 "ca",
                 "america",
                 "america_north"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Quebec City",
@@ -147,6 +153,7 @@
             "locationLong": -71.2167,
             "planned": false,
             "providerCode": "canada-east",
+            "providerCodeApi": "canadaeast",
             "regions": [
                 "ca",
                 "america",
@@ -226,18 +233,18 @@
             "city": "Dublin",
             "country": "IE",
             "estimated": false,
-            "facilities": 1,
+            "facilities": 3,
             "locationLat": 53.3330556,
             "locationLong": -6.2488889,
             "planned": false,
             "providerCode": "eu-north",
+            "providerCodeApi": "northeurope",
             "regions": [
                 "eu",
                 "eu_west",
                 "eu_north",
                 "eu_africa"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Amsterdam",
@@ -248,12 +255,12 @@
             "locationLong": 4.916667,
             "planned": false,
             "providerCode": "eu-west",
+            "providerCodeApi": "westeurope",
             "regions": [
                 "eu",
                 "eu_central",
                 "eu_africa"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Paris",
@@ -264,6 +271,7 @@
             "locationLong": 2.333333,
             "planned": false,
             "providerCode": "france-central",
+            "providerCodeApi": "francecentral",
             "regions": [
                 "eu",
                 "eu_west",
@@ -280,12 +288,12 @@
             "locationLong": 5.37606,
             "planned": false,
             "providerCode": "france-south",
+            "providerCodeApi": "francesouth",
             "regions": [
                 "eu",
                 "eu_west",
                 "eu_africa"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Frankfurt",
@@ -331,6 +339,7 @@
             "notes": "India regions are available to customers with a business presence in India",
             "planned": false,
             "providerCode": "india-central",
+            "providerCodeApi": "centralindia",
             "regions": [
                 "asia",
                 "asia_south"
@@ -347,6 +356,7 @@
             "notes": "India regions are available to customers with a business presence in India",
             "planned": false,
             "providerCode": "india-south",
+            "providerCodeApi": "southindia",
             "regions": [
                 "asia",
                 "asia_south"
@@ -363,6 +373,7 @@
             "notes": "India regions are available to customers with a business presence in India",
             "planned": false,
             "providerCode": "india-west",
+            "providerCodeApi": "westindia",
             "regions": [
                 "asia",
                 "asia_south"
@@ -378,6 +389,7 @@
             "locationLong": 139.67747,
             "planned": false,
             "providerCode": "japan-east",
+            "providerCodeApi": "japaneast",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -394,12 +406,12 @@
             "locationLong": 135.562978,
             "planned": false,
             "providerCode": "japan-west",
+            "providerCodeApi": "japanwest",
             "regions": [
                 "asia",
                 "asia_apac",
                 "jp"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Seoul",
@@ -410,6 +422,7 @@
             "locationLong": 126.9783,
             "planned": false,
             "providerCode": "korea-central",
+            "providerCodeApi": "koreacentral",
             "regions": [
                 "asia",
                 "asia_apac",
@@ -426,12 +439,12 @@
             "locationLong": 127.095,
             "planned": false,
             "providerCode": "korea-south",
+            "providerCodeApi": "koreasouth",
             "regions": [
                 "asia",
                 "asia_apac",
                 "asia_east"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Johannesburg",
@@ -440,13 +453,13 @@
             "facilities": 1,
             "locationLat": -26.205171,
             "locationLong": 28.049815,
-            "planned": true,
+            "planned": false,
             "providerCode": "southafrica-north",
+            "providerCodeApi": "southafricanorth",
             "regions": [
                 "eu_africa",
                 "africa"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Cape Town",
@@ -455,13 +468,13 @@
             "facilities": 1,
             "locationLat": -33.925839,
             "locationLong": 18.423218,
-            "planned": true,
+            "planned": false,
             "providerCode": "southafrica-west",
+            "providerCodeApi": "southafricawest",
             "regions": [
                 "eu_africa",
                 "africa"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Zurich",
@@ -476,8 +489,7 @@
                 "eu",
                 "eu_central",
                 "eu_africa"
-            ],
-            "special": false
+            ]
         },
         {
             "city": "Geneva",
@@ -504,6 +516,7 @@
             "locationLong": 54.366667,
             "planned": true,
             "providerCode": "uae-central",
+            "providerCodeApi": "uaecentral",
             "regions": [
                 "asia"
             ],
@@ -518,6 +531,7 @@
             "locationLong": 55.304717,
             "planned": true,
             "providerCode": "uae-north",
+            "providerCodeApi": "uaenorth",
             "regions": [
                 "asia"
             ],
@@ -527,11 +541,12 @@
             "city": "London",
             "country": "GB",
             "estimated": false,
-            "facilities": 1,
+            "facilities": 3,
             "locationLat": 51.514125,
             "locationLong": -0.093689,
             "planned": false,
             "providerCode": "uk-south",
+            "providerCodeApi": "uksouth",
             "regions": [
                 "eu",
                 "eu_west",
@@ -549,6 +564,7 @@
             "locationLong": -3.2,
             "planned": false,
             "providerCode": "uk-west",
+            "providerCodeApi": "ukwest",
             "regions": [
                 "eu",
                 "eu_west",
@@ -566,6 +582,7 @@
             "locationLong": -93.7111111,
             "planned": false,
             "providerCode": "us-central",
+            "providerCodeApi": "centralus",
             "regions": [
                 "us",
                 "us_midwest",
@@ -581,11 +598,12 @@
             "city": "Ashburn",
             "country": "US",
             "estimated": false,
-            "facilities": 1,
+            "facilities": 3,
             "locationLat": 39.0708333,
             "locationLong": -77.48,
             "planned": false,
             "providerCode": "us-east",
+            "providerCodeApi": "eastus",
             "regions": [
                 "us",
                 "us_east",
@@ -594,7 +612,6 @@
                 "america",
                 "america_north"
             ],
-            "special": false,
             "state": "VA"
         },
         {
@@ -606,6 +623,7 @@
             "locationLong": -77.48,
             "planned": false,
             "providerCode": "us-east2",
+            "providerCodeApi": "eastus2",
             "regions": [
                 "us",
                 "us_east",
@@ -626,6 +644,7 @@
             "locationLong": -87.65,
             "planned": false,
             "providerCode": "us-northcentral",
+            "providerCodeApi": "northcentralus",
             "regions": [
                 "us",
                 "us_midwest",
@@ -634,7 +653,6 @@
                 "america",
                 "america_north"
             ],
-            "special": false,
             "state": "IL"
         },
         {
@@ -646,6 +664,7 @@
             "locationLong": -98.4933333,
             "planned": false,
             "providerCode": "us-southcentral",
+            "providerCodeApi": "southcentralus",
             "regions": [
                 "us",
                 "us_south",
@@ -654,7 +673,6 @@
                 "america",
                 "america_north"
             ],
-            "special": false,
             "state": "TX"
         },
         {
@@ -666,6 +684,7 @@
             "locationLong": -122.4183333,
             "planned": false,
             "providerCode": "us-west",
+            "providerCodeApi": "westus",
             "regions": [
                 "us",
                 "us_west",
@@ -680,11 +699,12 @@
             "city": "Quincy",
             "country": "US",
             "estimated": false,
-            "facilities": 1,
+            "facilities": 3,
             "locationLat": 47.2344444,
             "locationLong": -119.8513889,
             "planned": false,
             "providerCode": "us-west2",
+            "providerCodeApi": "westus2",
             "regions": [
                 "us",
                 "us_west",
@@ -692,7 +712,6 @@
                 "america",
                 "america_north"
             ],
-            "special": false,
             "state": "WA"
         },
         {
@@ -704,6 +723,7 @@
             "locationLong": -104.8197222,
             "planned": false,
             "providerCode": "us-westcentral",
+            "providerCodeApi": "westcentralus",
             "regions": [
                 "us",
                 "us_west",
@@ -711,7 +731,6 @@
                 "america",
                 "america_north"
             ],
-            "special": false,
             "state": "WY"
         },
         {
@@ -837,7 +856,7 @@
     "serviceId": "azure:compute",
     "shortName": "Azure VMs",
     "sla": 99.95,
-    "slaDescription": "* For Cloud Services, we guarantee that when you deploy two or more role instances in different fault and upgrade domains, your Internet facing roles will have external connectivity at least 99.95% of the time.\n\n* For all Internet facing Virtual Machines that have two or more instances deployed in the same Availability Set, we guarantee you will have external connectivity at least 99.95% of the time. \n\n* For Virtual Network, we guarantee a 99.9% Virtual Network Gateway availability.",
+    "slaDescription": "* For Cloud Services, we guarantee that when you deploy two or more role instances in different fault and upgrade domains, your Internet facing roles will have external connectivity at least 99.95% of the time.\n\n* For all Virtual Machines that have two or more instances deployed across two or more Availability Zones in the same Azure region, we guarantee you will have Virtual Machine Connectivity to at least one instance at least 99.99% of the time.\n\n* For all Virtual Machines that have two or more instances deployed in the same Availability Set, we guarantee you will have Virtual Machine Connectivity to at least one instance at least 99.95% of the time.\n\n* For any Single Instance Virtual Machine using premium storage for all Operating System Disks and Data Disks, we guarantee you will have Virtual Machine Connectivity of at least 99.9%.\n\n* For Virtual Network, we guarantee a 99.9% Virtual Network Gateway availability.",
     "slaLink": "http://www.windowsazure.com/en-us/support/legal/sla/",
     "type": "compute",
     "website": "http://azure.microsoft.com"

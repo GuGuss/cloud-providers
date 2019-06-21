@@ -10,6 +10,22 @@
     "providerId": "oracle",
     "regions": [
         {
+            "city": "Toronto",
+            "country": "CA",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 43.666667,
+            "locationLong": -79.416667,
+            "planned": false,
+            "providerCode": "ca-toronto-1",
+            "providerCodeApi": "ca-toronto-1",
+            "regions": [
+                "ca",
+                "america",
+                "america_north"
+            ]
+        },
+        {
             "city": "Frankfurt",
             "country": "DE",
             "estimated": false,
@@ -18,6 +34,7 @@
             "locationLong": 8.683333,
             "planned": false,
             "providerCode": "eu-frankfurt-1",
+            "providerCodeApi": "eu-frankfurt-1",
             "regions": [
                 "eu",
                 "eu_central",
@@ -30,10 +47,11 @@
             "country": "GB",
             "estimated": false,
             "facilities": 3,
-            "locationLat": 51.5141,
-            "locationLong": -0.0937,
+            "locationLat": 51.514125,
+            "locationLong": -0.093689,
             "planned": false,
             "providerCode": "uk-london-1",
+            "providerCodeApi": "uk-london-1",
             "regions": [
                 "eu",
                 "eu_west",
@@ -51,6 +69,7 @@
             "locationLong": -77.48,
             "planned": false,
             "providerCode": "us-ashburn-1",
+            "providerCodeApi": "us-ashburn-1",
             "regions": [
                 "us",
                 "us_east",
@@ -71,6 +90,7 @@
             "locationLong": -112.0733333,
             "planned": false,
             "providerCode": "us-phoenix-1",
+            "providerCodeApi": "us-phoenix-1",
             "regions": [
                 "us",
                 "us_west",
