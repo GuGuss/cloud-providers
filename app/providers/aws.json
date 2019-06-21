@@ -1,0 +1,393 @@
+{
+    "beta": false,
+    "fedramp": true,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "Amazon EC2",
+    "outageContacts": "moselleg@amazon.com\njttorres@amazon.com\nfwurden@amazon.com",
+    "providerId": "aws",
+    "regions": [
+        {
+            "city": "Beijing",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 2,
+            "locationLat": 30.822638,
+            "locationLong": 114.047944,
+            "planned": false,
+            "providerCode": "ap-china-1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": true
+        },
+        {
+            "city": "Hong Kong",
+            "country": "HK",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 22.2833333,
+            "locationLong": 114.15,
+            "planned": true,
+            "providerCode": "ap-hong-kong",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Tokyo",
+            "country": "JP",
+            "estimated": false,
+            "facilities": 4,
+            "locationLat": 35.685,
+            "locationLong": 139.751389,
+            "notes": "New customers can access three EC2 Availability Zones in Asia Pacific (Tokyo)",
+            "planned": false,
+            "providerCode": "ap-northeast-1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "jp"
+            ],
+            "special": false
+        },
+        {
+            "city": "Seoul",
+            "country": "KR",
+            "estimated": false,
+            "facilities": 2,
+            "locationLat": 37.5985,
+            "locationLong": 126.9783,
+            "planned": false,
+            "providerCode": "ap-northeast-2",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": false
+        },
+        {
+            "city": "Osaka",
+            "country": "JP",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 34.516855,
+            "locationLong": 135.562978,
+            "notes": "The Asia Pacific (Osaka) Local Region is a Local Region",
+            "planned": false,
+            "providerCode": "ap-northeast-3",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "jp"
+            ],
+            "special": false
+        },
+        {
+            "city": "Mumbai",
+            "country": "IN",
+            "estimated": false,
+            "facilities": 2,
+            "locationLat": 18.975,
+            "locationLong": 72.825833,
+            "planned": false,
+            "providerCode": "ap-south-1",
+            "regions": [
+                "asia",
+                "asia_south"
+            ],
+            "special": false
+        },
+        {
+            "city": "Singapore",
+            "country": "SG",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 1.2930556,
+            "locationLong": 103.8558333,
+            "planned": false,
+            "providerCode": "ap-southeast-1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_southeast"
+            ],
+            "special": false
+        },
+        {
+            "city": "Sydney",
+            "country": "AU",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": -33.861481,
+            "locationLong": 151.205475,
+            "planned": false,
+            "providerCode": "ap-southeast-2",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": false
+        },
+        {
+            "city": "Montreal",
+            "country": "CA",
+            "estimated": false,
+            "facilities": 2,
+            "locationLat": 45.5,
+            "locationLong": -73.583333,
+            "notes": "Data centers are located in 2 different cities: Montreal and Toronto",
+            "planned": false,
+            "providerCode": "ca-central-1",
+            "regions": [
+                "ca",
+                "america",
+                "america_north"
+            ],
+            "special": false
+        },
+        {
+            "city": "Ningxia",
+            "country": "CN",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 28.25,
+            "locationLong": 112.55,
+            "planned": false,
+            "providerCode": "cn-northwest-1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "asia_east"
+            ],
+            "special": true
+        },
+        {
+            "city": "Frankfurt",
+            "country": "DE",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 50.116667,
+            "locationLong": 8.683333,
+            "planned": false,
+            "providerCode": "eu-central-1",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Stockholm",
+            "country": "SE",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 59.333333,
+            "locationLong": 18.05,
+            "planned": true,
+            "providerCode": "eu-stockholm",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Dublin",
+            "country": "IE",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 53.3330556,
+            "locationLong": -6.2488889,
+            "planned": false,
+            "providerCode": "eu-west-1",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "London",
+            "country": "GB",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 51.514125,
+            "locationLong": -0.093689,
+            "planned": false,
+            "providerCode": "eu-west-2",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Paris",
+            "country": "FR",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 48.866667,
+            "locationLong": 2.333333,
+            "planned": false,
+            "providerCode": "eu-west-3",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Manama",
+            "country": "BH",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 26.2361111,
+            "locationLong": 50.5830556,
+            "planned": true,
+            "providerCode": "manama",
+            "regions": [
+                "asia"
+            ],
+            "special": false
+        },
+        {
+            "city": "Sao Paulo",
+            "country": "BR",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": -23.53,
+            "locationLong": -46.63,
+            "planned": false,
+            "providerCode": "sa-east-1",
+            "regions": [
+                "america",
+                "america_central_south",
+                "america_south"
+            ],
+            "special": false
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 6,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "planned": false,
+            "providerCode": "us-east-1",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "VA"
+        },
+        {
+            "city": "Columbus",
+            "country": "US",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 39.9611111,
+            "locationLong": -82.9988889,
+            "notes": "Data centers are located in 3 different cities near Columbus: New Albany",
+            "planned": false,
+            "providerCode": "us-east-2",
+            "regions": [
+                "us",
+                "us_midwest",
+                "us_midwest_eastnorthcentral",
+                "us_central",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "OH"
+        },
+        {
+            "city": "Portland",
+            "country": "US",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 45.5236111,
+            "locationLong": -122.675,
+            "planned": false,
+            "providerCode": "us-gov-west-1",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "special": true,
+            "state": "OR"
+        },
+        {
+            "city": "San Jose",
+            "country": "US",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 37.3394444,
+            "locationLong": -121.8938889,
+            "planned": false,
+            "providerCode": "us-west-1",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "state": "CA"
+        },
+        {
+            "city": "Portland",
+            "country": "US",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 45.5236111,
+            "locationLong": -122.675,
+            "planned": false,
+            "providerCode": "us-west-2",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "OR"
+        }
+    ],
+    "serviceId": "aws:ec2",
+    "shortName": "EC2",
+    "sla": 99.99,
+    "slaDescription": "AWS will use commercially reasonable efforts to make Amazon EC2 and Amazon EBS each available with a Monthly Uptime Percentage (defined below) of at least 99.99%, in each case during any monthly billing cycle (the \"Service Commitment\"). In the event Amazon EC2 or Amazon EBS does not meet the Service Commitment, you will be eligible to receive a Service Credit.",
+    "slaLink": "http://aws.amazon.com/ec2-sla/",
+    "type": "compute",
+    "website": "http://aws.amazon.com/ec2/"
+}
