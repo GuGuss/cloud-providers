@@ -4,13 +4,31 @@ Map of the major public cloud provider locations: https://cloud-providers.jumpin
 
 ![](https://where.jumpintothe.cloud/assets/images/map.png)
 
-## Data
+## Install
 
-The regions data are loaded from the [app/regions.js](https://github.com/GuGuss/cloud-provider-locations/blob/master/app/regions.js) JSON file and imported into the map.
+```
+git clone https://github.com/GuGuss/cloud-providers
+cd cloud-providers
+npm install
+npm build
+```
 
-## Contributing
+## Develop
 
-Feel free to contribute to the project and submit pull request.
+```
+npm dev
+```
+
+Access http://localhost:8080.
+
+## Add a new Cloud Provider location
+
+1. Fill in the providers json in `providers/PROVIDERNAME.json`.
+2. Edit the following file `app/map.js` to import the new provider data.
+
+## Contribute
+
+Feel free to contribute to the project and submit pull requests.
 
 ## License
 
