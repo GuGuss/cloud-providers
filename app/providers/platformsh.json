@@ -178,6 +178,27 @@
             ],
             "special": false
         },
+        {
+            "city": "San Francisco",
+            "country": "US",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": 37.775,
+            "locationLong": -122.4183333,
+            "notes": "Azure us-west USA (San Francisco)",
+            "planned": false,
+            "providerCode": "us-3.platform.sh",
+            "providerCodeApi": "us-3.platform.sh",
+            "regions": [
+                "us",
+                "us_west",
+                "us_west_pacific",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "CA"
+        }
     ],
     "serviceId": "platformsh:grid",
     "shortName": "Platform.sh",
