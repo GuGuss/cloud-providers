@@ -14,6 +14,7 @@ import digitalocean from './providers/digitalocean.json';
 import gc from './providers/google.json';
 import interoute from './providers/interoute.json';
 import oracle from './providers/oracle.json';
+import platformsh from './providers/platformsh.json';
 import rackspace from './providers/rackspace.json';
 import upcloud from './providers/upcloud.json';
 
@@ -22,7 +23,7 @@ import upcloud from './providers/upcloud.json';
 // ==============================
 
 let map;
-const providers = [alibaba, aws, azure, digitalocean, gc, interoute, oracle, rackspace, upcloud];
+const providers = [alibaba, aws, azure, digitalocean, gc, interoute, oracle, platformsh, rackspace, upcloud];
 const markers = [];
 let context = '';
 const template = Handlebars.compile(`<li id="{{name}}-button" class="{{show}}">
