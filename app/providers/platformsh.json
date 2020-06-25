@@ -1,0 +1,188 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": false,
+    "hasDnsPricing": false,
+    "hasStorageOptions": true,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "Platform.sh",
+    "providerId": "platformsh",
+    "regions": [
+        {
+            "city": "Sydney",
+            "country": "AU",
+            "estimated": false,
+            "facilities": 2,
+            "locationLat": -33.861481,
+            "locationLong": 151.205475,
+            "notes": "AWS ap-southeast-2 Asia Pacific (Sydney)",
+            "planned": false,
+            "providerCode": "au.platform.sh",
+            "providerCodeApi": "au.platform.sh",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": false
+        },
+        {
+            "city": "Montreal",
+            "country": "CA",
+            "estimated": false,
+            "facilities": 2,
+            "locationLat": 45.5,
+            "locationLong": -73.583333,
+            "notes": "AWS ca-central-1 Canada (Central)",
+            "planned": false,
+            "providerCode": "ca-1.platform.sh",
+            "providerCodeApi": "ca-1.platform.sh",
+            "regions": [
+                "ca",
+                "america",
+                "america_north"
+            ],
+            "special": false
+        },
+        {
+            "city": "Frankfurt",
+            "country": "DE",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 50.1109,
+            "locationLong": 8.6821,
+            "notes": "GCP eu-west-3 Germany (Frankfurt)",
+            "planned": false,
+            "providerCode": "de-2.platform.sh",
+            "providerCodeApi": "de-2.platform.sh",
+            "regions": [
+                "eu",
+                "eu_central",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Paris",
+            "country": "FR",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 48.866667,
+            "locationLong": 2.333333,
+            "notes": "Orange eu-west-0 France (Paris)",
+            "planned": false,
+            "providerCode": "fr-1.platform.sh",
+            "providerCodeApi": "fr-1.platform.sh",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Dublin",
+            "country": "IE",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 53.3330556,
+            "locationLong": -6.2488889,
+            "notes": "AWS eu-west-1 Ireland (Dublin)",
+            "planned": false,
+            "providerCode": "eu-2.platform.sh",
+            "providerCodeApi": "eu-2.platform.sh",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "London",
+            "country": "GB",
+            "estimated": true,
+            "facilities": 3,
+            "locationLat": 51.5074,
+            "locationLong": -0.1278,
+            "notes": "GCP eu-west-2 England, UK (London)",
+            "planned": false,
+            "providerCode": "uk-1.platform.sh",
+            "providerCodeApi": "uk-1.platform.sh",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Ashburn",
+            "country": "US",
+            "estimated": false,
+            "facilities": 6,
+            "locationLat": 39.0708333,
+            "locationLong": -77.48,
+            "notes": "AWS us-east-1 USA (North Virginia)",
+            "planned": false,
+            "providerCode": "us-2.platform.sh",
+            "providerCodeApi": "us-2.platform.sh",
+            "regions": [
+                "us",
+                "us_east",
+                "us_south",
+                "us_south_southatlantic",
+                "america",
+                "america_north"
+            ],
+            "special": false,
+            "state": "VA"
+        },
+        {
+            "city": "Dublin",
+            "country": "IE",
+            "estimated": false,
+            "facilities": 3,
+            "locationLat": 53.3330556,
+            "locationLong": -6.2488889,
+            "notes": "AWS eu-west-1 Ireland (Dublin)",
+            "planned": false,
+            "providerCode": "eu-4.platform.sh",
+            "providerCodeApi": "eu-4.platform.sh",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_north",
+                "eu_africa"
+            ],
+            "special": false
+        },
+        {
+            "city": "Roubaix",
+            "country": "FR",
+            "estimated": false,
+            "facilities": 7,
+            "locationLat": 50.6887117,
+            "locationLong": 3.166711,
+            "notes": "OVH France (Roubaix)",
+            "planned": false,
+            "providerCode": "ovh-fr-2.platform.sh",
+            "providerCodeApi": "ovh-fr-2.platform.sh",
+            "regions": [
+                "eu",
+                "eu_west",
+                "eu_africa"
+            ],
+            "special": false
+        },
+    ],
+    "serviceId": "platformsh:grid",
+    "shortName": "Platform.sh",
+    "sla": 99.99,
+    "slaDescription": "Architected for secure, compliant deployments, with a 99.99% uptime SLA (that’s only 4 minutes, 19 seconds/month downtime) on the complete stack. 24x7 support. And guaranteed response times from an expert team, spanning five continents.",
+    "slaLink": "https://platform.sh/solutions/",
+    "type": "hosting",
+    "website": "https://platform.sh"
