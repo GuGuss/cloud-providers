@@ -16,7 +16,7 @@ npm build
 ## Develop
 
 ```
-npm dev
+npm run-script dev
 ```
 
 Access http://localhost:8080.
@@ -24,7 +24,7 @@ Access http://localhost:8080.
 ## Add a new Cloud Provider location
 
 1. Fill in the providers json in `providers/PROVIDERNAME.json`.
-2. Edit the following file `app/map.js` to import the new provider data.
+2. Edit the following file `app/index.js` to import the new provider data.
 
 ## Contribute
 

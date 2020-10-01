@@ -23,11 +23,24 @@ import upcloud from './providers/upcloud.json';
 // ==============================
 
 let map;
-const providers = [alibaba, aws, azure, digitalocean, gc, interoute, oracle, platformsh, rackspace, upcloud];
+const providers2 = [alibaba, aws, azure, digitalocean, gc, interoute, oracle, platformsh, rackspace, upcloud];
+const providers = [
+  [alibaba, "#A742EB"], 
+  [aws, "#EB8428"], 
+  [azure, "#354AEB"], 
+  [digitalocean, "#CFEB1E"], 
+  [gc, "#1AC3EB"], 
+  [interoute, "#EB9036"], 
+  [oracle, "#58EB1C"], 
+  [platformsh, "#EB412B"], 
+  [rackspace, "#13B8EB"], 
+  [upcloud, "#EB0ED8"],
+];
 const markers = [];
 let context = '';
 const template = Handlebars.compile(`<li id="{{name}}-button" class="{{show}}">
-  <a href="#" id="{{id}}-link">
+  <a href="#" id="{{id}}-link" style="color:{{color}};">
+    <i class="fas fa-band-aid"></i>
     <p>{{name}}</p>
   </a>
 </li>`);
@@ -73,7 +86,7 @@ function setStyle(map) {
 function setMarkers(map) {
   // Loop through all providers.
   for ( var i = 0; i < providers.length; i++) {
-    var provider = providers[i];
+    var provider = providers[i][0];
     console.log('[DEBUG] Current provider: ' + provider.providerId);
 
     // Initialize markers[] if not yet done.
@@ -82,7 +95,7 @@ function setMarkers(map) {
     }
 
     // Generate a random color for each provider.
-    var providerColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    var providerColor = providers[i][1];
 
     // Loop through all regions.
     for ( var x = 0; x < provider.regions.length; x++) {
@@ -172,15 +185,15 @@ function initSidebar(map) {
   if(showProviders == 'all') {
     // Add the provider toggle buttons.
     for ( var i = 0; i < providers.length; i++) {
-      var provider = providers[i];
-      context = {name: provider.providerId, id: provider.providerId, show: "active"};
+      var provider = providers[i][0];
+      context = {name: provider.providerId, id: provider.providerId, show: "active", color: providers[i][1]};
       const html  = template(context);
       document.getElementById("region-list").innerHTML += html;
     }
   } else {
     // Add the provider toggle buttons.
     for ( var i = 0; i < providers.length; i++) {
-      var provider = providers[i];
+      var provider = providers[i][0];
       if(showProviders.includes(provider.providerId)) {
         context = {name: provider.providerId, id: provider.providerId, show: "active"};
         console.log('I want this cool provider: ' + provider.providerId);
@@ -197,7 +210,7 @@ function initSidebar(map) {
 
   // Add the listeners.
   for ( var i = 0; i < providers.length; i++) {
-    var provider = providers[i];
+    var provider = providers[i][0];
     const toogleMarkerFunction = toggleMarker(provider.providerId);
     document.getElementById(provider.providerId+'-link').onclick = toogleMarkerFunction;
   }
